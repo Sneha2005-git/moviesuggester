@@ -8,7 +8,7 @@ async function fetchMovies() {
 
     const requestBody = {
         contents: [{
-            parts: [{ text: `List 10 movies in the ${genre} genre.` }]
+            parts: [{ text: `List 10 movies in the ${genre} genre. i need different outputs every time` }]
         }]
     };
 
